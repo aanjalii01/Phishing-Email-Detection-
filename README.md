@@ -156,29 +156,11 @@ If the virtual environment becomes "locked" (you cannot install or uninstall pac
    ```bash
    pip install -r requirements.txt
    ```
+Acknowledgments
+We extend our heartfelt gratitude to hppy7 for his support in forming our group and his valuable contributions to this project.
 
----
+Led by Anjali Sinha, this phishing email detection system aims to enhance user safety by accurately identifying phishing threats.
 
-## **How to Contribute**
+Feel free to adapt this acknowledgment to suit your style!
 
-1. **Fork the repository** and clone it to your local machine.
-2. **Make changes or improvements** and commit them.
-3. **Push your changes** to your forked repository.
-4. **Create a pull request** with a detailed description of the changes.
 
----
-Execution Policies:
-In PowerShell, you may encounter execution policy restrictions that prevent scripts from running. You need to set the execution policy appropriately (e.g., using Set-ExecutionPolicy Unrestricted -Scope Process) to allow the execution of Activate.ps1.
-
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
----
-
-### Explanation:
-1. **Markdown Formatting**: The code includes headers, lists, and code blocks (` ```bash ` and ` ```python `) for clarity.
-2. **Troubleshooting Virtual Environment**: Added steps to resolve issues with locked environments.
-3. **Ready for GitHub**: The content is now GitHub-ready and can be directly used as `README.md`.
-
-Let me know if you need further modifications!
