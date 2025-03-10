@@ -17,7 +17,7 @@ def predict_email(model_file, vectorizer_file, email_text):
     return "Phishing" if prediction[0] == 1 else "Not Phishing"
 
 # if __name__ == "__main__":
-#     email_text = "Your account has been compromised. Click here to reset your password."
+#     email_text = "Your account has been compromised.  Click here to reset your password."
 #     result = predict_email("models/phishing_detector.pkl", "data/preprocessed_data.pkl", email_text)
 #     print(f"Prediction: {result}")
 
