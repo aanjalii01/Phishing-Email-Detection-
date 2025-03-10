@@ -15,7 +15,7 @@ def train_model(data_file, model_file):
     model = RandomForestClassifier(random_state=42)
     model.fit(X_train, y_train)
 
-    # Evaluate the model
+    #  Evaluate the model
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Model Accuracy: {accuracy:.2f}")
