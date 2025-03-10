@@ -15,8 +15,7 @@ This project builds a phishing email detection system using machine learning tec
   - [Step 3: Train the Model](#step-3-train-the-model)
   - [Step 4: Make Predictions](#step-4-make-predictions)
 - [How It Works](#how-it-works)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
+
 
 ---
 
