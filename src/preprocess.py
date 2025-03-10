@@ -6,11 +6,11 @@ def preprocess_data(input_file, output_file):
     # Load the CSV file
     data = pd.read_csv(input_file)
 
-    # Ensure the dataset has 'text' and 'label' columns
+       # Ensure the dataset has 'text' and 'label' columns
     if 'text' not in data.columns or 'label' not in data.columns:
         raise ValueError("Input CSV must have 'text' and 'label' columns.")
 
-    # Vectorize the text using TF-IDF
+          # Vectorize the text using TF-IDF
     vectorizer = TfidfVectorizer()
     X = vectorizer.fit_transform(data['text']).toarray()
 
